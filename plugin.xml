@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Plugin xmlns="http://schema.jellyfin.org/plugin/v1" 
+        id="JellyfinJellyseerrIntegration"
+        name="Jellyseerr Integration"
+        description="Integrates Jellyseerr functionality into Jellyfin"
+        version="1.0.0">
+    <manifest>
+        <description>Browse content by network/studio and request missing content directly from Jellyfin</description>
+        <owner>Your Name</owner>
+        <category>General</category>
+        <dependencies>
+            <dependency id="Jellyfin.Api" version=">=10.7.0" />
+            <dependency id="Jellyfin.UI" version=">=10.7.0" />
+        </dependencies>
+    </manifest>
+    <assets>
+        <javascript src="plugin.js" />
+        <image src="images/default-network.png" />
+        <image src="images/default-studio.png" />
+        <image src="images/default-movie.png" />
+        <image src="images/default-tv.png" />
+    </assets>
+</Plugin>
