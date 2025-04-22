@@ -1,0 +1,17 @@
+{
+    "name": "Jellyseerr Integration",
+    "version": "1.0.0",
+    "description": "Integrates Jellyseerr functionality into Jellyfin",
+    "repository": "https://github.com/yourusername/JellyfinJellyseerrIntegration",
+    "owner": "Your Name",
+    "category": "General",
+    "artifacts": [
+      {
+        "filename": "JellyfinJellyseerrIntegration.zip",
+        "url": "https://github.com/yourusername/JellyfinJellyseerrIntegration/releases/download/v1.0.0/JellyfinJellyseerrIntegration.zip",
+        "checksums": {
+          "sha256": "[SHA256 checksum of your zip file]"
+        }
+      }
+    ]
+  }
